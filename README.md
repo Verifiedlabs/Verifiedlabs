@@ -1,7 +1,9 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00D1B2&center=true&vCenter=true&width=500&lines=👋+Welcome+to+Verified+Labs!;🚀+Building+automation+and+DeFi+infrastructure;🧠+Python+%7C+Node.js+%7C+Solidity+%7C+AI+agents;⚙️+Automate+what's+boring%2C+verify+what+matters." alt="Verified Labs Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D1B2&center=true&vCenter=true&width=800&lines=Welcome+to+Verified+Labs;Web3+Automation+and+Tools;Automate+what's+boring,+verify+what+matters" alt="Verified Labs Typing SVG" />
 </p>
+
+
 
 ---
 
