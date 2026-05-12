@@ -7,7 +7,7 @@
 Python · TypeScript · CUDA · Solidity
 
 [![Follow](https://img.shields.io/github/followers/Verifiedlabs?style=for-the-badge&logo=github&color=181717&labelColor=181717&label=Follow)](https://github.com/Verifiedlabs)
-[![X](https://img.shields.io/badge/-@alghozirizky-000?style=for-the-badge&logo=x&logoColor=white&labelColor=000)](https://x.com/alghozirizky)
+[![X](https://img.shields.io/badge/-@krakenlens-000?style=for-the-badge&logo=x&logoColor=white&labelColor=000)](https://x.com/krakenlens)
 [![Telegram](https://img.shields.io/badge/-@malghz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=26A5E4)](https://t.me/malghz)
 
 </div>
