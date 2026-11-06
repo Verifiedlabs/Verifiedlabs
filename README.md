@@ -2,7 +2,7 @@
 
 # Verified Labs
 
-**Open-source tools for crypto, mining, and automation.**
+**Open tools for crypto, mining, and AI automation.**
 
 Python · TypeScript · CUDA · Solidity
 
@@ -16,9 +16,7 @@ Python · TypeScript · CUDA · Solidity
 
 ### About
 
-Independent builder shipping small, focused open-source tools. Most of what you'll find here solves a problem I personally ran into — proof-of-work miners that actually saturate the GPU, launchpad math that isn't a spreadsheet, AI-assisted code review that doesn't lie about the diff.
-
-If something here is useful to you, a star or a PR is always welcome. Issues are open on every active repo.
+Builder in Indonesia. I ship open tools for crypto, mining, and AI automation: GPU miners, launchpad math, and account tooling.
 
 ---
 
@@ -28,20 +26,44 @@ If something here is useful to you, a star or a PR is always welcome. Issues are
 <tr>
 <td width="50%" valign="top">
 
+#### [any-auto-register](https://github.com/Verifiedlabs/any-auto-register)
+
+Auto-register and manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae, and 13+ AI platforms. Protocol or browser, plugin-based, Mac/Windows.
+
+`Python`
+
+[Any2API](https://github.com/lxf746/any2api)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Kiro-Auto-Pro](https://github.com/Verifiedlabs/Kiro-Auto-Pro)
+
+Bulk-registers Kiro IDE accounts from GSuite and upgrades them to Pro via Google OAuth and Stripe.
+
+`TypeScript`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### [codelens](https://github.com/Verifiedlabs/codelens)
-AI-powered git diff reviewer. Streams senior-level code review, commit messages, PR descriptions, and risk assessment in real time.
 
-`Next.js 16` `TypeScript` `LLM` `SSE`
+AI git diff reviewer. Streams the review, commit message, PR description, and risk assessment over SSE.
 
-[Live demo →](https://codelens-rouge.vercel.app)
+`Next.js` `TypeScript` `SSE`
+
+[Live demo](https://codelens-rouge.vercel.app)
 
 </td>
 <td width="50%" valign="top">
 
 #### [limitless-bot](https://github.com/Verifiedlabs/limitless-bot)
-Reactive LP market-making bot for Limitless prediction markets on Base. WebSocket-driven order cancellation to avoid adverse fills.
 
-`TypeScript` `DeFi` `Base` `Market Making`
+Reactive LP market-making bot for Limitless prediction markets on Base. Cancels quotes off the WebSocket book to avoid adverse fills.
+
+`TypeScript` `Base`
 
 </td>
 </tr>
@@ -49,35 +71,30 @@ Reactive LP market-making bot for Limitless prediction markets on Base. WebSocke
 <td width="50%" valign="top">
 
 #### [pfft-miner-cuda](https://github.com/Verifiedlabs/pfft-miner-cuda)
-Windows/Linux CUDA miner for PFFT (Pow Free Fair Token). 8 GH/s on RTX 4090, scales linearly across cards.
 
-`Python` `CUDA` `Proof-of-Work` `Ethereum`
+Windows/Linux CUDA miner for PFFT. ~8 GH/s on an RTX 4090 (ballpark). Parallel multi-GPU scales linearly.
+
+`Python` `CUDA`
 
 </td>
 <td width="50%" valign="top">
 
 #### [oversubscribe_calculator](https://github.com/Verifiedlabs/oversubscribe_calculator)
-Pro-rata allocation calculator for IDOs and launchpads. Pure Python stdlib, Decimal arithmetic, ROI estimate included.
 
-`Python` `CLI` `Crypto`
+Pro-rata allocation calculator for IDOs and launchpads. Python stdlib only, Decimal math, optional listing ROI.
+
+`Python`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-#### [wallet_gen_multi](https://github.com/Verifiedlabs/wallet_gen_multi)
-Multi-chain wallet generator for EVM, Solana, and SUI. Deterministic output, CSV/JSON export.
+#### [miner](https://github.com/Verifiedlabs/miner)
 
-`Python` `EVM` `Solana` `SUI`
+Hash256 proof-of-work miner on Ethereum. Node picks CUDA, Metal, or CPU from whatever binary is built.
 
-</td>
-<td width="50%" valign="top">
-
-#### [Hasminer-GPU](https://github.com/Verifiedlabs/Hasminer-GPU)
-Multi-GPU miner with CUDA acceleration. Simple config, production-tested on rigs.
-
-`JavaScript` `CUDA` `Mining`
+`Node.js` `CUDA` `Metal`
 
 </td>
 </tr>
@@ -87,26 +104,38 @@ Multi-GPU miner with CUDA acceleration. Simple config, production-tested on rigs
 
 ### Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,nodejs,nextjs,react,solidity,fastapi,docker,linux,bash,git,github,cuda,cpp" />
-</p>
+<div align="center">
+
+<img alt="Python, TypeScript, Node.js, Next.js, React, Solidity, FastAPI, Docker, Linux, Bash, Git, GitHub, CUDA, C++" src="https://skillicons.dev/icons?i=python,typescript,nodejs,nextjs,react,solidity,fastapi,docker,linux,bash,git,github,cuda,cpp" />
+
+</div>
 
 ---
 
 ### Activity
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Verifiedlabs&show_icons=true&theme=dark&hide_border=true&count_private=false&include_all_commits=false&card_width=480" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Verifiedlabs&layout=compact&theme=dark&hide_border=true&langs_count=8&card_width=320" height="170" />
-</p>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Verifiedlabs&show_icons=true&theme=dark&hide_border=true&count_private=false&include_all_commits=false&card_width=480" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Verifiedlabs&show_icons=true&theme=default&hide_border=true&count_private=false&include_all_commits=false&card_width=480" />
+  <img alt="GitHub stats for Verifiedlabs" height="170" src="https://github-readme-stats.vercel.app/api?username=Verifiedlabs&show_icons=true&theme=dark&hide_border=true&count_private=false&include_all_commits=false&card_width=480" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Verifiedlabs&layout=compact&theme=dark&hide_border=true&langs_count=8&card_width=320" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Verifiedlabs&layout=compact&theme=default&hide_border=true&langs_count=8&card_width=320" />
+  <img alt="Top languages for Verifiedlabs" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Verifiedlabs&layout=compact&theme=dark&hide_border=true&langs_count=8&card_width=320" />
+</picture>
+
+</div>
 
 ---
 
 ### Contributing
 
-All active repos accept issues and pull requests. If you spot a bug, have a feature idea, or want to port a tool to another language — open an issue first so we can scope it together.
+Issues and PRs are open on active repos. Bug, feature, or a port to another language: open an issue first so we can scope it.
 
-For security-sensitive reports (especially anything involving keys, signing, or on-chain funds), please reach out on Telegram instead of opening a public issue.
+Security reports (keys, signing, on-chain funds): Telegram, not a public issue.
 
 ---
 
